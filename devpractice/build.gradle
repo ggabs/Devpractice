@@ -32,6 +32,8 @@ configurations {
 }
 
 dependencies {
+	compile group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
+
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compileOnly('org.projectlombok:lombok')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
